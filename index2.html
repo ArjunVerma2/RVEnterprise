@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RV ENTERPRISE</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./Images/RV SHOP official.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--
+    - google font link
+  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="overlay" data-overlay></div>
+
+    <!--
+    - HEADER
+  -->
+
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-social-container">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <div class="header-alert-news">
+            <p>
+              <b>WELCOME TO RV INTERPRISES</b>
+            </p>
+          </div>
+
+          <div class="header-top-actions">
+            <select name="currency">
+              <option value="eur">INR Rs</option>
+              <option value="usd">USD &dollar;</option>
+            </select>
+
+            <select name="language">
+              <option value="en-US">English</option>
+              <option value="es-ES">हिंदी</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-main">
+        <div class="container">
+          <a href="#" class="header-logo">
+            <img src="./Images/RV SHOP official.jpg" alt="RV's logo" />
+          </a>
+
+          <div class="header-search-container">
+            <input
+              type="search"
+              name="search"
+              class="search-field"
+              placeholder="Enter your product name..."
+            />
+
+            <button class="search-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="header-user-actions">
+            <button class="action-btn">
+              <ion-icon name="person-outline"></ion-icon>
+            </button>
+            <button class="action-btn">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+              <span class="count">2</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <nav class="desktop-navigation-menu">
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+              <a href="http://127.0.0.1:5500/index.html" class="menu-title"
+                >Home</a
+              >
+            </li>
+
+            <li class="menu-category">
+              <a href="#" class="menu-title">Our Products</a>
+
+              <div class="dropdown-panel">
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Moulded Solid WPC door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Filling Meleor Hot Press Solid WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">White Engraved WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Modern WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Solid WPC Door</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="#">For More...</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="wpcdoor"
+                        src="./Images/wpc doors.jpeg"
+                        alt="WPC door collection"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">UPVC Windows</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Openable Upvc Windows</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">UPVC Windows</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">WPC Window 2 Panel</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">2 Track UPVC Window</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="#">3 Track UPVC Window</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="#">For more...</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="upvcwindow"
+                        src="./images/upvc windows.jpeg"
+                        alt="UPVC windows"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">Wire Mesh Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Pvc Wire Mash Doors</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Wire Mesh Solid PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">White PVC Wire Mash Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Wire Mesh Solid PVC Door</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="wiremesh"
+                        src="./Images/wire mesh images.jpg"
+                        alt="wire mesh image"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Solid Panel PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Brown Solid Panel PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Prelam Solid Panel PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">PVC Moulded Doors</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="pvcdoor"
+                        src="./images/pvc-bathroom-door.avif"
+                        alt="PVC door"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="menu-category">
+              <a href="#" class="menu-title">Our Designs</a>
+
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#">Kitchen Designs</a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Bathroom Designs</a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Living Room Designs</a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Almira Designs</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-category">
+              <a href="http://127.0.0.1:5500/Contactus.html" class="menu-title"
+                >Contact US</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!------------------------------- About us page ------------------------------------------------------->
+    <div class="aboutus-full">
+      <div class="about-top">
+        <h1><span> RV </span> ENTERPRISE</h1>
+        <div class="rv">
+          <img src="./Images/about2.jpeg" alt="" />
+          <p>
+            <span>RV Enterprise</span> is a leading provider of high-quality
+            UPVC doors and windows, specializing in creating solutions that
+            enhance the comfort, security, and aesthetic value of homes and
+            commercial spaces. With years of experience in the industry, we
+            pride ourselves on offering durable, energy-efficient, and stylish
+            products that meet the evolving needs of our customers. Our
+            commitment to quality craftsmanship and sustainable practices
+            ensures that every product we offer is designed to provide
+            long-lasting performance while minimizing environmental impact. We
+            utilize the latest technology and industry-leading materials to
+            produce doors and windows that are weather-resistant,
+            energy-efficient, and require minimal maintenance.
+          </p>
+        </div>
+
+        <div class="ourvision">
+          <h1>OUR VISION</h1>
+
+          <p>
+            At <span>RV ENTERPRISE</span> , we envision a world where every home
+            and workspace is a harmonious blend of style, comfort, and
+            sustainability. Our mission is to redefine living spaces by
+            delivering premium-quality UPVC doors and windows that are not only
+            aesthet ically appealing but also engineered for durability, energy
+            efficiency, and environmental responsibility. We strive to be a
+            global leader in the UPVC industry, setting new benchmarks in
+            innovation, craftsmanship, and customer satisfaction. Through our
+            commitment to cutting-edge tech nology and eco-friendly practices,
+            we aim to contribute to a greener planet while enhancing the quality
+            of life for our customers. Our vision is to transform the way people
+            interact with their spaces by offering solutions that ensure safety,
+            reduce energy consumption, and create a sense of tranquility. We are
+            dedicated to shaping a future where style meets sustainability, and
+            functionality comple ments innovation, inspiring trust and loyalty
+            from all who choose our products.
+          </p>
+        </div>
+        <h1>OUR MISSION</h1>
+        <div class="ourmission">
+          <p>
+            At <span>RV Enterprise</span>, we are committed to providing
+            high-quality, energy-effi cient UPVC doors and windows that enhance
+            the comfort, security, and aesthetic appeal of every home and
+            building. Through innovative design, exceptional craftsmanship, and
+            sus tainable materials, we deliver products that offer long-lasting
+            performance, minimal main tenance, and superior value. Our mission
+            is to create sustainable, functional solutions that transform living
+            spaces while prioritizing the needs of our customers, our planet,
+            and our community.” This mission statement focuses on quality,
+            sustainability, and customer satisfaction—key themes that resonate
+            with the UPVC market. Feel free to adapt it to match your company’s
+            specific values and goals!
+          </p>
+          <img src="./Images/mission.avif" alt="" />
+        </div>
+      </div>
+      <div class="about-bottom">
+        <h1>CERTIFICATION</h1>
+        <div class="cert">
+          <div class="cert-items">
+            <img
+              style="width: 293px; position: relative; left: 3rem; top: 20%"
+              src="./Images/cert1.avif"
+              alt="Atmycert"
+            />
+          </div>
+          <div class="cert-items">
+            <img
+              style="width: 293; height: 293px; position: relative; left: 20%"
+              src="./Images/cert5.jpg"
+              alt="isocert"
+            />
+          </div>
+          <div class="cert-item">
+            <img src="./Images/cert3.png" alt="cipetcert" />
+          </div>
+          <div class="cert-item">
+            <img src="./Images/cert4.png" alt="SKZcert" />
+          </div>
+          <div class="cert-item">
+            <img src="./Images/cert6.jpeg" alt="Srifircert" />
+          </div>
+          <div class="cert-item">
+            <img src="./Images/cert5.png" alt="SGSCERT" />
+          </div>
+        </div>
+        <h1>AFFILIATIONS AND MEMBERSHIPS</h1>
+        <div class="cert2">
+          <div class="cert-item2">
+            <img
+              style="position: relative; left: 20%; top: 10%"
+              src="./Images/AFF1.png"
+              alt=""
+            />
+          </div>
+          <div class="cert-item2">
+            <img
+              style="position: relative; left: 25%; top: 10%"
+              src="./Images/aff2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="cert-item2">
+            <img style="width: 500px" src="./Images/aff3.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------------Footer of about us --------------------------------------------- -->
+    <footer>
+      <div class="footer-nav">
+        <div class="container">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Popular Categories</h2>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">UPVC Windows</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Wire Mesh Door</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">PVC Sheets</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">WPC Door Frame</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">PVC Sheets</a>
+            </li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Products</h2>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">PVC Wall Panels</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">PVC Door Profile</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">PVC Marble Sheet</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">PVC Grill</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">WPC Solid Sheet</a>
+            </li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Our Company</h2>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Delivery</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Legal Notice</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Terms and conditions</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">About us</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Services</h2>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Authorized Dealer</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Interior Decoration</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Manufacturing</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Contact us</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link"
+                >Quality Checking of product</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Contact</h2>
+            </li>
+
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <address class="content">
+                Workshop No. 16-17, Maripat Road,Chaprana Colony
+                Dadri,Gautambuddha Nagar, UP-203207
+              </address>
+            </li>
+
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a href="tel:+607936-8058" class="footer-nav-link"
+                >+91 9810413474</a
+              >
+            </li>
+
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <a href="mailto:example@gmail.com" class="footer-nav-link"
+                >shubhamverma2409@gmail.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Follow Us</h2>
+            </li>
+
+            <li>
+              <ul class="social-link">
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <img
+            src="./images/RV SHOP official.jpg"
+            alt="payment method"
+            class="payment-img"
+          />
+          <p class="copyright">
+            Copyright &copy; <a href="#">RV Enterprise</a> all rights reserved.
+          </p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#top"><ion-icon name="chevron-up-outline"></ion-icon> </a>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RV ENTERPRISE</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./Images/RV SHOP official.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--
+    - google font link
+  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="overlay" data-overlay></div>
+
+    <!--
+    - MODAL
+  -->
+
+    <div class="modal" data-modal>
+      <div class="modal-close-overlay" data-modal-overlay></div>
+
+      <div class="modal-content">
+        <button class="modal-close-btn" data-modal-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="newsletter-img">
+          <img
+            src="./Images/newleterr2.webp"
+            alt="subscribe newsletter"
+            width="400"
+            height="400"
+          />
+        </div>
+
+        <div class="newsletter">
+          <form action="#">
+            <div class="newsletter-header">
+              <h3 class="newsletter-title">Subscribe RV ENTERPRISE</h3>
+
+              <p class="newsletter-desc">
+                Follow the <b>RV ENTERPRISE</b> instagram page to get latest
+                products and discount update.
+              </p>
+            </div>
+
+            <input
+              type="email"
+              name="email"
+              class="email-field"
+              placeholder="Email Address"
+              required
+            />
+
+            <button type="submit" class="btn-newsletter">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    - NOTIFICATION TOAST
+  -->
+
+    <div class="notification-toast" data-toast>
+      <button class="toast-close-btn" data-toast-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="toast-banner">
+        <img
+          src="./Images/customer.jpg"
+          alt="Online customer"
+          width="80"
+          height="70"
+        />
+      </div>
+
+      <div class="toast-detail">
+        <p class="toast-message">Someone in new just ordered</p>
+
+        <p class="toast-title">New Customer join our family</p>
+
+        <p class="toast-meta"><time datetime="PT2M">2 Minutes</time> ago</p>
+      </div>
+    </div>
+
+    <!--
+    - HEADER
+  -->
+
+    <header>
+      <div class="header-top">
+        <div class="container" id="top">
+          <ul class="header-social-container">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://wa.me/+919810413474?text=Hi i am interested in your product"
+                class="social-link"
+              >
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <div class="header-alert-news">
+            <p>
+              <b>WELCOME TO RV INTERPRISES</b>
+            </p>
+          </div>
+
+          <div class="header-top-actions">
+            <select name="currency">
+              <option value="eur">INR Rs</option>
+              <option value="usd">USD &dollar;</option>
+            </select>
+
+            <select name="language">
+              <option value="en-US">English</option>
+              <option value="es-ES">हिंदी</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-main">
+        <div class="container">
+          <a href="#" class="header-logo">
+            <img src="./Images/RV SHOP official.jpg" alt="RV's logo" />
+          </a>
+
+          <div class="header-search-container">
+            <input
+              type="search"
+              name="search"
+              class="search-field"
+              placeholder="Enter your product name..."
+            />
+
+            <button class="search-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="header-user-actions">
+            <button class="action-btn">
+              <ion-icon name="person-outline"></ion-icon>
+            </button>
+            <button class="action-btn">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+              <span class="count">2</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <nav class="desktop-navigation-menu">
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+              <a href="#" class="menu-title">Home</a>
+            </li>
+
+            <li class="menu-category">
+              <a href="#" class="menu-title">Our Products</a>
+
+              <div class="dropdown-panel">
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Moulded Solid WPC door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Filling Meleor Hot Press Solid WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">White Engraved WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Modern WPC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Solid WPC Door</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="./products.html">For More...</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="wpcdoor"
+                        src="./Images/wpc doors.jpeg"
+                        alt="WPC door collection"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">UPVC Windows</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Openable Upvc Windows</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">UPVC Windows</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">WPC Window 2 Panel</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">2 Track UPVC Window</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="#">3 Track UPVC Window</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="./products.html">For more...</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="upvcwindow"
+                        src="./images/upvc windows.jpeg"
+                        alt="UPVC windows"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">Wire Mesh Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Pvc Wire Mash Doors</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Wire Mesh Solid PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">White PVC Wire Mash Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Wire Mesh Solid PVC Door</a>
+                  </li>
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="wiremesh"
+                        src="./Images/wire mesh images.jpg"
+                        alt="wire mesh image"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Solid Panel PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Brown Solid Panel PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">Prelam Solid Panel PVC Door</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">PVC Moulded Doors</a>
+                  </li>
+
+                  <li class="panel-list-item">
+                    <a href="#">
+                      <img
+                        id="pvcdoor"
+                        src="./images/pvc-bathroom-door.avif"
+                        alt="PVC door"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="menu-category">
+              <a href="#" class="menu-title">About us</a>
+
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="http://127.0.0.1:5500/index2.html"
+                    >About Our Interprises</a
+                  >
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Download Brochure</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-category">
+              <a href="#" class="menu-title">Our Designs</a>
+
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#">Kitchen Designs</a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Bathroom Designs</a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Living Room Designs</a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a href="#">Almira Designs</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-category">
+              <a href="http://127.0.0.1:5500/Contactus.html" class="menu-title"
+                >Contact US</a
+              >
+            </li>
+
+            <li class="menu-category">
+              <a href="#" class="menu-title">Hot Offers</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="mobile-bottom-navigation">
+        <button class="action-btn" data-mobile-menu-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <button class="action-btn">
+          <ion-icon name="bag-handle-outline"></ion-icon>
+
+          <span class="count">0</span>
+        </button>
+
+        <button class="action-btn">
+          <ion-icon name="home-outline"></ion-icon>
+        </button>
+
+        <button class="action-btn">
+          <ion-icon name="heart-outline"></ion-icon>
+
+          <span class="count">200</span>
+        </button>
+
+        <button class="action-btn" data-mobile-menu-open-btn>
+          <ion-icon name="grid-outline"></ion-icon>
+        </button>
+      </div>
+
+      <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+        <div class="menu-top">
+          <h2 class="menu-title">Menu</h2>
+
+          <button class="menu-close-btn" data-mobile-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="mobile-menu-category-list">
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">WPC Door</p>
+
+              <div>
+                <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Moulded Solid WPC Door </a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title"
+                  >Filling Meteor Hot Press Solid WPC Door</a
+                >
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">White Engraved WPC Door </a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Modern WPC Door</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">UPVC Windows</p>
+
+              <div>
+                <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Openable UPVC Windows</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title"
+                  >Three Track UPVC Window with net
+                </a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">3 Track UPVC Window</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">2 Track UPVC Windows</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Wire Mesh Door</p>
+
+              <div>
+                <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Pvc Wire Mesh Doors</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Wire Mesh Solid PVC Door</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">White PVC Wire Mesh Door</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Wire Mesh Solid PVC Door</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">PVC Doors</p>
+
+              <div>
+                <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Solid Panel PVC Door</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Brown Solid Panel PVC Door</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title"
+                  >Prelam Solid Panel PVC Door</a
+                >
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">PVC Moulded Doors</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">About Us</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="menu-bottom">
+          <ul class="menu-category-list">
+            <li class="menu-category">
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Language</p>
+
+                <ion-icon
+                  name="caret-back-outline"
+                  class="caret-back"
+                ></ion-icon>
+              </button>
+
+              <ul class="submenu-category-list" data-accordion>
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">English</a>
+                </li>
+
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+                </li>
+
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Fren&ccedil;h</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-category">
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Currency</p>
+                <ion-icon
+                  name="caret-back-outline"
+                  class="caret-back"
+                ></ion-icon>
+              </button>
+
+              <ul class="submenu-category-list" data-accordion>
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">INR &rupees</a>
+                </li>
+
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">USD &dollors</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="menu-social-container">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--
+    - MAIN
+  -->
+
+    <main>
+      <!--
+      - BANNER
+    -->
+
+      <div class="banner">
+        <div class="container">
+          <div class="slider-container has-scrollbar">
+            <div class="slider-item">
+              <img
+                src="./Images/kitchen2.jpg"
+                alt="Latest kitchen Designs"
+                class="banner-img"
+              />
+
+              <div class="banner-content">
+                <p class="banner-subtitle">Trending Designs</p>
+
+                <h2 class="banner-title">Kitchen's Latest Designs</h2>
+
+                <p class="banner-text">Starting at Rs 5000</p>
+
+                <a href="#" class="banner-btn"
+                  ><span class="transition"></span>
+                  <span class="gradient"></span> <span>Get now</span></a
+                >
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <img
+                src="./Images/pvc design banner 2.jpg"
+                alt="modern sunglasses"
+                class="banner-img"
+              />
+
+              <div class="banner-content">
+                <p class="banner-subtitle">Trending Designs</p>
+
+                <h2 class="banner-title">Modern Pannels</h2>
+
+                <p class="banner-text">New <b>Stock</b> out here</p>
+
+                <a href="#" class="banner-btn">Select now</a>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <img
+                src="./Images/modern-led-tv-wall-panel-design-11.jpg"
+                alt="New WALL Design"
+                class="banner-img"
+              />
+
+              <div class="banner-content">
+                <p class="banner-subtitle">Sale Offer</p>
+
+                <h2 class="banner-title">New Design for TV Walls</h2>
+
+                <p class="banner-text">Starting at Rs <b>8</b>K</p>
+
+                <a href="#" class="banner-btn">Order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      - CATEGORY
+    -->
+
+      <div class="category">
+        <div class="container">
+          <div class="category-item-container has-scrollbar">
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img src="./Images/wpc door frame.jpg" alt="wpc doors" />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">WPC Door Panel</h3>
+                  <!-- <p class="category-item-amount">Rs2000</p> -->
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img
+                src="./images/pvc-jali-door-1-250x250.jpg"
+                alt="PVC WIRE door"
+              />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">PVC Wire Mesh Door</h3>
+
+                  <!-- <p class="category-item-amount">Rs 2000</p> -->
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img
+                src="./images/opnable-upvc-window-250x250.jpg"
+                alt="Openable upvc"
+              />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Openable Upvc Window</h3>
+                  <!-- <p class="category-item-amount">(68)</p> -->
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img src="./images/pvcgrill.png" alt="Grillpvc" />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">PVC Grill</h3>
+                  <!-- <p class="category-item-amount">(84)</p> -->
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img src="./images/pvcwallpanel.png" alt="pvcwallpanel" />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">PVC Wall Panel</h3>
+                  <!-- <p class="category-item-amount">(35)</p> -->
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img
+                src="./images/moulded-solid-pvc-doors-250x250.png"
+                alt="Moulded"
+              />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Moulded Solid WPC Door</h3>
+                  <!-- <p class="category-item-amount">(16)</p> -->
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img
+                src="./Images/pvc wall panel ceiling.jpg"
+                alt="pvcwallpanel"
+              />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">
+                    PVC Wall Panel and False ceiling
+                  </h3>
+                  <!-- <p class="category-item-amount">(27)</p> -->
+                </div>
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <!-- <div class="category-img-box"> -->
+              <img src="./images/pvcfalce.png" alt="pvcfallceil" />
+              <!-- </div> -->
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">PVC Fall Ceiling</h3>
+                  <!-- <p class="category-item-amount">(39)</p> -->
+                </div>
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT US  -->
+      <div class="about-container">
+        <div class="container-content">
+          <h2>ABOUT US</h2>
+          <p>
+            <span><b>RV Enterprise</b></span> is a leading provider of
+            high-quality UPVC doors and windows, specializing in creating
+            solutions that enhance the comfort, security, and aesthetic value of
+            homes and commercial spaces. With years of experience in the
+            industry, we pride ourselves on offering durable, energy-efficient,
+            and stylish products that meet the evolving needs of our customers.
+            Our commitment to quality craftsmanship and sustainable practices
+            ensures that every product we offer is designed to provide
+            long-lasting performance while minimizing environmental impact. We
+            utilize the latest technology and industry-leading materials to
+            produce doors and windows that are weather-resistant,
+            energy-efficient, and require minimal maintenance.
+          </p>
+          <a href="http://127.0.0.1:5500/index2.html">For More</a>
+        </div>
+      </div>
+      <div class="heading"><h2>WHY CHOOSE US?</h2></div>
+      <div class="whychoose">
+        <div class="aboutus-left">
+          <img src="./Images/why choose.jpg" alt="why choose" />
+        </div>
+        <div class="aboutus-right">
+          <p>
+            <ion-icon class="icon" name="earth-outline"></ion-icon>
+            We prioritize eco-friendly practices, using recyclable material
+            <span
+              >and energy efficient design that reduce environmental
+              impact</span
+            >
+          </p>
+
+          <p>
+            <ion-icon class="icon" name="link-outline"></ion-icon>
+            Our UPVC Products are crafted to withstand extreme weather,<span>
+              resist corrosion, and maintain their quality for years with
+              minimal maintenance.</span
+            >
+          </p>
+          <p>
+            <ion-icon class="icon" name="construct-outline"></ion-icon>
+            With a wide range of sizes, styles, and finishes, we offer tailored
+            <span
+              >solutions to fit your unique aesthetic and functional
+              requirements.</span
+            >
+          </p>
+          <p>
+            <ion-icon class="icon" name="lock-closed-outline"></ion-icon>
+            <span
+              >Safety is at the heart of our designs, featuring multi-point
+              locking systems and impact resistant glass for peace of
+              mind.</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="heading2"><h2>OUR PRODUCTS</h2></div>
+      <div class="ourproducts">
+        <div class="product-grid">
+          <div class="product-item">
+            <img
+              class="pro-img"
+              src="./Images/moulded-solid-pvc-doors-250x250.png"
+              alt="wpcdoor"
+            />
+            <h4>WPC Door</h4>
+            <a href="#">Moulded Solid WPC Door</a>
+            <a href="#">Filling Meteor Hot Press Solid WPC Door</a>
+            <a href="#">White Engraved WPC Door</a>
+            <a class="product-btn" href="#">View Details </a>
+          </div>
+          <div class="product-item">
+            <img
+              class="pro-img"
+              src="./Images/wpc door frame.jpg"
+              alt="wpcdoor"
+            />
+            <h4>WPC Door Frame</h4>
+            <a href="#">WPS Door Frame</a>
+            <a href="#">Double Rebated Solid WPC Door Frame</a>
+            <a href="#">Brown Wpc Solid Door Frame</a>
+            <a class="product-btn" href="#">View Details </a>
+          </div>
+          <div class="product-item">
+            <img
+              class="pro-img"
+              src="./Images/opnable-upvc-window-250x250.jpg"
+              alt="wpcdoor"
+            />
+            <h4>UPVC Windows</h4>
+            <a href="#">Openable UPVC Windows</a>
+            <a href="#">Three Track UPVC Window with Net</a>
+            <a href="#">3 Track UPVC Window</a>
+            <a class="product-btn" href="#">View Details </a>
+          </div>
+          <div class="product-item">
+            <img class="pro-img" src="./Images/upvc door.jpg" alt="wpcdoor" />
+            <h4>UPVC Door</h4>
+            <a href="#">WPC Door</a>
+            <a href="#">2.5 Track UPVC Window with Net</a>
+            <a href="#">UPVC Casement Door</a>
+            <a class="product-btn" id="vd" href="#">View Details</a>
+          </div>
+          <div class="product-item">
+            <img
+              class="pro-img"
+              src="./Images/pvc-jali-door-1-250x250.jpg"
+              alt="pvcjali"
+            />
+            <h4>Wire Mesh Door</h4>
+            <a href="#">PVC Wire Mesh Doors</a>
+            <a href="#">Wire Mesh Solid PVC Door</a>
+            <a href="#">White PVC Wire Mesh Door</a>
+            <a class="product-btn" href="#">View Details</a>
+          </div>
+          <div class="product-item">
+            <img
+              class="pro-img"
+              src="./Images/textured-pvc-sheet-250x250.jpg"
+              alt="pvcsheet"
+            />
+            <h4>PVC Sheets</h4>
+            <a href="#">Textured PVC Sheet</a>
+            <a href="#">Laminated PVC Sheets</a>
+            <a href="#">Colored PVC Sheet</a>
+            <a class="product-btn" href="#">View Details</a>
+          </div>
+          <div class="product-item">
+            <img class="pro-img" src="./Images/pvcfalce.png" alt="pvcfalse" />
+            <h4>PVC False Ceiling</h4>
+            <a href="#">PVC False Ceiling</a>
+            <a href="#">PVC Ceiling Sheet</a>
+            <a href="#">Acoustic False Ceiling</a>
+            <a class="product-btn" href="#">View Details </a>
+          </div>
+          <div class="product-item">
+            <img class="pro-img" src="./Images/pvc door.png" alt="pvcdoor" />
+            <h4>PVC Door</h4>
+            <a href="#">Solid Panel PVC Door</a>
+            <a href="#">Brown Solid Panel PVC Door</a>
+            <a href="#">Prelam Solid Panel PVC Door</a>
+            <a class="product-btn" href="#">View Details</a>
+          </div>
+          <a class="range-btn" href="http://127.0.0.1:5500/products.html"
+            >Veiw More</a
+          >
+        </div>
+      </div>
+      <!--
+    - FOOTER
+  -->
+
+      <footer>
+        <div class="footer-nav">
+          <div class="container">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Popular Categories</h2>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">UPVC Windows</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Wire Mesh Door</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">PVC Sheets</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">WPC Door Frame</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">PVC Sheets</a>
+              </li>
+            </ul>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Products</h2>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">PVC Wall Panels</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">PVC Door Profile</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">PVC Marble Sheet</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">PVC Grill</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">WPC Solid Sheet</a>
+              </li>
+            </ul>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Our Company</h2>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Delivery</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Legal Notice</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Terms and conditions</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">About us</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Contact Us</a>
+              </li>
+            </ul>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Services</h2>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Authorized Dealer</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Interior Decoration</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Manufacturing</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Contact us</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link"
+                  >Quality Checking of product</a
+                >
+              </li>
+            </ul>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Contact</h2>
+              </li>
+
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <address class="content">
+                  Workshop No. 16-17, Maripat Road,Chaprana Colony
+                  Dadri,Gautambuddha Nagar, UP-203207
+                </address>
+              </li>
+
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <a href="tel:+607936-8058" class="footer-nav-link"
+                  >+91 9810413474</a
+                >
+              </li>
+
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <a href="mailto:example@gmail.com" class="footer-nav-link"
+                  >shubhamverma2409@gmail.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Follow Us</h2>
+              </li>
+
+              <li>
+                <ul class="social-link">
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <img
+              src="./images/RV SHOP official.jpg"
+              alt="payment method"
+              class="payment-img"
+            />
+            <p class="copyright">
+              Copyright &copy; <a href="#">RV Enterprise</a> all rights
+              reserved.
+            </p>
+          </div>
+          <div class="footer-iconTop">
+            <a href="#top"><ion-icon name="chevron-up-outline"></ion-icon> </a>
+          </div>
+        </div>
+      </footer>
+
+      <!--
+    - custom js link
+  -->
+      <script src="./index.js"></script>
+
+      <!--
+    - ionicon link
+  -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    </main>
+  </body>
+</html>
